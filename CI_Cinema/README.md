@@ -27,6 +27,7 @@ User : Main, 영화 특별관 정보 (네이버 지도 API), 로그인&아웃
  <img src="https://user-images.githubusercontent.com/39996770/71717141-6b477180-2e5a-11ea-8254-8a161110f260.PNG" style="margin-bottom:20px;"><br><br><br><br>
  <img src="https://user-images.githubusercontent.com/39996770/71716235-5e754e80-2e57-11ea-875c-0fbcd3f63c17.png" style="margin-bottom:20px;"><br><br><br><br>
  <img src="https://user-images.githubusercontent.com/39996770/71716237-5f0de500-2e57-11ea-9438-4459f0b8d647.png" style="margin-bottom:20px;"><br><br><br><br>
+ <img width="1098" src="https://user-images.githubusercontent.com/39996770/71717334-1e17cf80-2e5b-11ea-9ff5-727bdd321807.png"><br><br><br><br>
  <img src="https://user-images.githubusercontent.com/39996770/71716238-5f0de500-2e57-11ea-9ebf-f01ee4405943.png" style="margin-bottom:20px;"><br><br>
 </div>
 
