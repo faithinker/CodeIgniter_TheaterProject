@@ -1,0 +1,20 @@
+[2019-12-17 22:37:04.420] [exthost] [info] extension host started
+[2019-12-17 22:37:04.615] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features {"startup":false,"extensionId":{"value":"vscode.php-language-features","_lower":"vscode.php-language-features"},"activationEvent":"onLanguage:php"}
+[2019-12-17 22:37:04.615] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/team2/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/php-language-features/dist/phpMain
+[2019-12-17 22:37:04.627] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-12-17 22:37:04.627] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/team2/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/debug-auto-launch/dist/extension
+[2019-12-17 22:37:04.631] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-12-17 22:37:04.631] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/team2/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/emmet/dist/extension
+[2019-12-17 22:37:04.655] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2019-12-17 22:37:04.655] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/team2/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/git/dist/main
+[2019-12-17 22:37:04.699] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-12-17 22:37:04.699] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/team2/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/merge-conflict/dist/extension
+[2019-12-17 22:37:04.703] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2019-12-17 22:37:04.703] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/team2/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/search-result/dist/extension.js
+[2019-12-17 22:37:04.710] [exthost] [info] eager extensions activated
+[2019-12-17 23:14:55.111] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2019-12-17 23:14:55.111] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/team2/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/html-language-features/client/dist/htmlMain
+[2019-12-17 23:34:13.050] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2019-12-17 23:34:13.052] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/team2/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/typescript-language-features/dist/extension
+[2019-12-17 23:34:14.783] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2019-12-17 23:34:14.783] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/team2/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/extension-editing/dist/extension

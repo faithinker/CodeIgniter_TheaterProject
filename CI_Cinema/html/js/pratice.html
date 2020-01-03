@@ -1,0 +1,248 @@
+<div class="col-sm-12 mega-select-present">
+  <div class="mega-select">
+    <span class="mega-select__point">Search by</span>
+    <ul class="mega-select__sort"> 위에 가로줄 리스트
+        <li class="filter-wrap"><a href="#" class="mega-select__filter filter--active" data-filter="location">Location</a></li>
+        <li class="filter-wrap"><a href="#" class="mega-select__filter" data-filter="cinema">Cinema</a></li>
+        <li class="filter-wrap"><a href="#" class="mega-select__filter" data-filter="film-category">Category</a></li>
+        <li class="filter-wrap"><a href="#" class="mega-select__filter" data-filter="actors">Actors</a></li>
+        <li class="filter-wrap"><a href="#" class="mega-select__filter" data-filter="director">Director</a></li>
+        <li class="filter-wrap"><a href="#" class="mega-select__filter" data-filter="country">Country</a></li>
+    </ul>
+
+    <input name="search-input" type="text" class="select__field"> <!--검색입력 text박스-->
+    
+    <div class="select__btn select__btn--sample"> 검색버튼
+      <a href="#" class="btn btn-md btn--danger location" style="display: inline;">find <span class="hidden-exrtasm">your city</span></a>
+      <a href="#" class="btn btn-md btn--danger cinema" style="display: none;">find <span class="hidden-exrtasm">suitable cimema</span></a>
+      <a href="#" class="btn btn-md btn--danger film-category" style="display: none;">find <span class="hidden-exrtasm">best category</span></a>
+      <a href="#" class="btn btn-md btn--danger actors" style="display: none;">find <span class="hidden-exrtasm">talented actors</span></a>
+      <a href="#" class="btn btn-md btn--danger director" style="display: none;">find <span class="hidden-exrtasm">favorite director</span></a>
+      <a href="#" class="btn btn-md btn--danger country" style="display: none;">find <span class="hidden-exrtasm">produced country</span></a>
+    </div>
+    검색창 클릭하면 드롭박스
+    <div class="select__dropdowns select__dropdowns--sample">
+        <ul class="select__group location active-dropdown" style="display: block;">
+          <li class="select__variant" data-value="London">London</li>
+          <li class="select__variant" data-value="New York">New York</li>
+          <li class="select__variant" data-value="Paris">Paris</li>
+          <li class="select__variant" data-value="Berlin">Berlin</li>
+          <li class="select__variant" data-value="Moscow">Moscow</li>
+          <li class="select__variant" data-value="Minsk">Minsk</li>
+          <li class="select__variant" data-value="Warsawa">Warsawa</li>
+        </ul>
+
+        <ul class="select__group cinema" style="display: none;">
+          <li class="select__variant" data-value="Cineworld">Cineworld</li>
+          <li class="select__variant" data-value="Empire">Empire</li>
+          <li class="select__variant" data-value="Everyman">Everyman</li>
+          <li class="select__variant" data-value="Odeon">Odeon</li>
+          <li class="select__variant" data-value="Picturehouse">Picturehouse</li>
+        </ul>
+
+        <ul class="select__group film-category" style="display: none;">
+          <li class="select__variant" data-value="Children's">Children's</li>
+          <li class="select__variant" data-value="Comedy">Comedy</li>
+          <li class="select__variant" data-value="Drama">Drama</li>
+          <li class="select__variant" data-value="Fantasy">Fantasy</li>
+          <li class="select__variant" data-value="Horror">Horror</li>
+          <li class="select__variant" data-value="Thriller">Thriller</li>
+        </ul>
+
+        <ul class="select__group actors" style="display: none;">
+          <li class="select__variant" data-value="Leonardo DiCaprio">Leonardo DiCaprio</li>
+          <li class="select__variant" data-value="Johnny Depp">Johnny Depp</li>
+          <li class="select__variant" data-value="Jack Nicholson">Jack Nicholson</li>
+          <li class="select__variant" data-value="Robert De Niro">Robert De Niro</li>
+          <li class="select__variant" data-value="Morgan Freeman">Morgan Freeman</li>
+          <li class="select__variant" data-value="Jim Carrey">Jim Carrey</li>
+          <li class="select__variant" data-value="Adam Sandler">Adam Sandler</li>
+          <li class="select__variant" data-value="Ben Stiller">Ben Stiller</li>
+        </ul>
+
+        <ul class="select__group director" style="display: none;">
+          <li class="select__variant" data-value="Steven Spielberg">Steven Spielberg</li>
+          <li class="select__variant" data-value="Martin Scorsese">Martin Scorsese</li>
+          <li class="select__variant" data-value="Guy Ritchie">Guy Ritchie</li>
+          <li class="select__variant" data-value="Christopher Nolan">Christopher Nolan</li>
+          <li class="select__variant" data-value="Tim Burton">Tim Burton</li>
+        </ul>
+
+        <ul class="select__group country" style="display: none;">
+          <li class="select__variant" data-value="USA">USA</li>
+          <li class="select__variant" data-value="Germany">Germany</li>
+          <li class="select__variant" data-value="Australia">Australia</li>
+          <li class="select__variant" data-value="UK">UK</li>
+          <li class="select__variant" data-value="Japan">Japan</li>
+          <li class="select__variant" data-value="Serbia">Serbia</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+<!--경고창 X버튼 누르면 사라짐 팝업창에 적용-->
+<div class="alert alert-success">
+  <span class="icon-flag"></span>
+  Success! Notification goes here
+  <a class="close" data-dismiss="alert" href="#" aria-hidden="true"></a>
+</div>
+<div class="alert alert-warning">
+  <span class="icon-bell"></span>
+  Warning! Notification goes here
+  <a class="close" data-dismiss="alert" href="#" aria-hidden="true"></a>
+</div>
+
+
+<script type="text/javascript">
+  $(document).ready(function() { 
+      init_Elements();
+  });
+</script>
+<script>
+function init_Elements () {
+    "use strict";
+
+	//1. Accodions
+	//Init 2 type accordions
+        $('#accordion').collapse();
+        $('#accordion-dark').collapse();
+
+    //2. Dropdown
+    //select
+    $("#select-sort").selectbox({
+            onChange: function (val, inst) {
+
+                $(inst.input[0]).children().each(function(item){
+                    $(this).removeAttr('selected');
+                })
+                $(inst.input[0]).find('[value="'+val+'"]').attr('selected','selected');
+            }
+
+        });
+
+            
+
+    //3. Datapicker init
+    $( ".datepicker__input" ).datepicker({
+        showOtherMonths: true,
+        selectOtherMonths: true,
+        showAnim:"fade"
+    });
+
+    $(document).click(function(e) { 
+        var ele = $(e.target); 
+        if (!ele.hasClass("datepicker__input") && !ele.hasClass("ui-datepicker") && !ele.hasClass("ui-icon") && !$(ele).parent().parents(".ui-datepicker").length){
+             $(".datepicker__input").datepicker("hide");
+
+        }
+   });
+
+   //4. Tabs
+   //Init 2 type tabs
+    $('#hTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    });
+
+    $('#vTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    }); 
+
+    //5. Mega select with filters
+    //Mega select interaction
+    $('.mega-select__filter').click(function(e){
+                //prevent the default behaviour of the link
+                e.preventDefault();
+                $('.select__field').val(''); 
+   
+                $('.mega-select__filter').removeClass('filter--active');
+                $(this).addClass('filter--active');
+                // 클릭한 링크의 데이터 속성을 가져온다. 우리 콘텐트의 필터값과 동일하다.
+                //get the data attribute of the clicked link(which is equal to value filter of our content 
+                var filter = $(this).attr('data-filter');
+
+                //Filter buttoms 검색버튼 보여줌
+                //show all the list items(this is needed to get the hidden ones shown)
+                $(".select__btn a").show();
+                
+                // 내가 누르지 않은 것을 숨겨줌 -> 즉 내가 클릭한 것만 남겨서 보여줌
+                /*using the :not attribute and the filter class in it we are selecting
+                only the list items that don't have that class and hide them '*/
+                $('.select__btn a:not(.' + filter + ')').hide();
+
+                //Filter dropdown 드롭다운 필터 모두 보여줌
+                //show all the list items(this is needed to get the hidden ones shown)
+                $(".select__group").removeClass("active-dropdown"); //active dropdown 제거
+                $(".select__group").show(); //모든 드롭다운 보여줌
+                
+                /*using the :not attribute and the filter class in it we are selecting
+                only the list items that don't have that class and hide them '*/
+                $('.select__group.' + filter).addClass("active-dropdown"); //내가 선택한 것의 드롭다운에 active 붙임
+                $('.select__group:not(.' + filter + ')').hide();  //내가 선택한 것 외에 전부 숨김
+            });
+
+            $('.filter--active').trigger('click'); //가로줄 리스트
+                
+                
+            //드롭박스 선택적으로 보이게 로케이션 관련 드롭박스만, 시네마 관련 드롭박스만...
+            $('.select__field').focus(function() { //검색입력 text 박스
+                $(this).parent().find('.active-dropdown').css("opacity", 1); //드롭박스 보이게
+            });
+
+            $('.select__field').blur(function() {
+                $(this).parent().find('.active-dropdown').css("opacity", 0); //드롭박스 숨기게
+            });
+
+            //드롭박스 글자 선택하면 그 값이 text 박스로 들어감
+            $('.select__variant').click( function () { //드롭박스 li
+                var value = $(this).attr('data-value');
+
+                $('.select__field').val(value); //검색입력 text 박스에 값을 짛어넣음
+            });
+
+    //6. Progressbar
+    		//Count function for progressbar
+    		function init_progressBar(duration) {
+                    $('.progress').each(function() {
+                        var value = $(this).find('.progress__bar').attr('data-level');
+                        var result = value + '%';
+                        if(duration) {
+                            $(this).find('.progress__current').animate({width : value + '%'}, duration);
+                        }
+                        else {
+                            $(this).find('.progress__current').css({'width' : value + '%'});
+                        }
+                        
+                    });
+            }
+
+            //inview progress bars
+            // $('.progress').one('inview', function (event, visible) {
+            //     if (visible == true) {
+            //           
+            //     }
+            // });
+
+            var inview = new Waypoint.Inview({
+              element: $('.progress')[0],
+              enter: function(direction) {
+                init_progressBar(2000);
+              }
+            });
+
+    //7. Dropdown for authorize button
+    		//user list option
+            $('.auth__show').click(function (e){
+                e.preventDefault();
+                $('.auth__function').toggleClass('open-function')
+            })
+
+            $('.btn--singin').click(function (e){
+                e.preventDefault();
+                $('.auth__function').toggleClass('open-function')
+            });
+
+}
+</script>
+

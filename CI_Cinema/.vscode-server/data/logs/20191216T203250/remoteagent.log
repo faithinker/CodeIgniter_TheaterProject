@@ -1,0 +1,45 @@
+[2019-12-16 20:32:50.268] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2019-12-16 20:32:50.268] [remoteagent] [info] Extension host agent started.
+[2019-12-16 20:32:50.834] [remoteagent] [info] [127.0.0.1][5f639a00][ManagementConnection] New connection established.
+[2019-12-16 20:32:50.837] [remoteagent] [info] [127.0.0.1][c9400fd6][ExtensionHostConnection] New connection established.
+[2019-12-16 20:32:50.977] [remoteagent] [info] [127.0.0.1][c9400fd6][ExtensionHostConnection] <11530> Launched Extension Host Process.
+[2019-12-16 22:45:52.887] [remoteagent] [info] [127.0.0.1][9bdee677][ManagementConnection] New connection established.
+[2019-12-16 22:45:52.897] [remoteagent] [info] [127.0.0.1][024edf9d][ExtensionHostConnection] New connection established.
+[2019-12-16 22:45:52.902] [remoteagent] [info] [127.0.0.1][024edf9d][ExtensionHostConnection] <22434> Launched Extension Host Process.
+[2019-12-16 22:45:53.673] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-12-16 22:45:55.445] [remoteagent] [info] Installing extension: ms-ceintl.vscode-language-pack-ko
+[2019-12-16 22:45:55.736] [remoteagent] [info] Downloaded extension: ms-ceintl.vscode-language-pack-ko /tmp/39c18ff3-bec2-4391-a8bb-fda1645e901d
+[2019-12-16 22:45:55.814] [remoteagent] [info] Extracted extension to /home/team2/.vscode-server/extensions/.ms-ceintl.vscode-language-pack-ko-1.41.2: ms-ceintl.vscode-language-pack-ko
+[2019-12-16 22:45:55.815] [remoteagent] [info] Renamed to /home/team2/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.41.2
+[2019-12-16 22:45:55.816] [remoteagent] [info] Installation completed. ms-ceintl.vscode-language-pack-ko
+[2019-12-16 22:45:55.832] [remoteagent] [info] Extensions installed successfully: ms-ceintl.vscode-language-pack-ko
+[2019-12-16 22:46:43.663] [remoteagent] [info] [127.0.0.1][5f639a00][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2019-12-17 00:00:45.531] [remoteagent] [info] [127.0.0.1][5f639a00][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2019-12-17 00:00:45.531] [remoteagent] [info] [127.0.0.1][52bba325][ManagementConnection] New connection established.
+[2019-12-17 00:00:45.532] [remoteagent] [info] [127.0.0.1][7b5ade56][ExtensionHostConnection] New connection established.
+[2019-12-17 00:00:45.536] [remoteagent] [info] [127.0.0.1][7b5ade56][ExtensionHostConnection] <25948> Launched Extension Host Process.
+[2019-12-17 00:00:46.327] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-12-17 00:05:45.532] [remoteagent] [info] [127.0.0.1][5f639a00][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2019-12-17 00:05:46.563] [remoteagent] [info] [127.0.0.1][c9400fd6][ExtensionHostConnection] <11530> Extension Host Process exited with code: 0, signal: null.
+[2019-12-17 00:16:00.202] [remoteagent] [info] [127.0.0.1][9bdee677][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2019-12-17 02:34:17.393] [remoteagent] [info] [127.0.0.1][9bdee677][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2019-12-17 02:34:17.394] [remoteagent] [info] [127.0.0.1][8d45b592][ManagementConnection] New connection established.
+[2019-12-17 02:34:17.397] [remoteagent] [info] [127.0.0.1][d1ea9b7f][ExtensionHostConnection] New connection established.
+[2019-12-17 02:34:17.401] [remoteagent] [info] [127.0.0.1][d1ea9b7f][ExtensionHostConnection] <32061> Launched Extension Host Process.
+[2019-12-17 02:34:21.264] [remoteagent] [info] [127.0.0.1][52bba325][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2019-12-17 02:39:17.393] [remoteagent] [info] [127.0.0.1][9bdee677][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2019-12-17 02:39:18.414] [remoteagent] [info] [127.0.0.1][7b5ade56][ExtensionHostConnection] <25948> Extension Host Process exited with code: 0, signal: null.
+[2019-12-17 02:39:18.417] [remoteagent] [info] [127.0.0.1][024edf9d][ExtensionHostConnection] <22434> Extension Host Process exited with code: 0, signal: null.
+[2019-12-17 03:53:26.028] [remoteagent] [info] [127.0.0.1][8d45b592][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2019-12-17 03:53:27.047] [remoteagent] [info] [127.0.0.1][d1ea9b7f][ExtensionHostConnection] <32061> Extension Host Process exited with code: 0, signal: null.
+[2019-12-17 03:53:27.047] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2019-12-17 03:58:27.052] [remoteagent] [info] Last EH closed, shutting down

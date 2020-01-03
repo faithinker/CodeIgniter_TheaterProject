@@ -1,0 +1,82 @@
+.mypadding{
+ padding-top:20px;
+ padding-bottom: 20px;
+ padding-right: 20px;
+}
+
+.mymarginright {
+  margin-right: 10px;
+}
+.mymarginright20 {
+  margin-top: 20px;
+}
+.mymargin {
+  margin-bottom: 30px;
+  height: 50px;
+  width:300px;
+}
+
+#mymarginright {
+  margin-right: 10px;
+}
+
+#mydepth {
+  background: rgba(239, 235, 219);
+  position: absolute;
+  height: 55px;
+  width: 100%;
+  z-index: 110;
+}
+
+.myspecialcinema{
+  content: '';
+  overflow: hidden;
+  height: 596px;
+  top: 0;
+  left: 0;
+}
+
+.mycontainer {
+  overflow: hidden;
+  margin: 57px 0;
+  background-color: #dad2b4;
+  padding: 15px 0px 0px 0px;
+  position: relative;
+}
+
+.specialheader {
+  position: absoulte;
+  margin: 0px 50px 0px 200px;
+}
+.specialheader ul > li.active > a {
+  height: 25px;
+  font-weight: bold;
+  border-bottom: 2px solid #6f6247;
+  display: inline-block;
+}
+.specialheader ul > li {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 14px;
+  
+}
+
+#floatdiv { position:fixed; display:inline-block; right:1500px; top:30%;  background-color: transparent; margin:0; } 
+
+#content {
+  position: relative;
+  min-height: 400px;
+}
+.spec_shwrap {
+  max-width: 1400px;
+  text-align: center;
+  margin: 0px auto
+}
+.spec_shwrap img {
+  width: 100%;
+  vertical-align: middle;
+}
+.emptydivdier{
+  width: auto;
+  height: 100px;
+}

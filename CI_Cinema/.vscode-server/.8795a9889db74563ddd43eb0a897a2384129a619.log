@@ -1,0 +1,39 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 220.67.174.102
+Extension host agent listening on 39547
+
+
+[22:33:57] Extension host agent started.
+[22:33:57] [127.0.0.1][2e92df58][ManagementConnection] New connection established.
+[22:33:57] [127.0.0.1][0ed93d2e][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[22:33:57] [127.0.0.1][0ed93d2e][ExtensionHostConnection] <4343> Launched Extension Host Process.
+[22:34:05] [127.0.0.1][2e92df58][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:34:06] [127.0.0.1][0ed93d2e][ExtensionHostConnection] <4343> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[22:34:06] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[22:34:10] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[22:34:10] Cancelling previous shutdown timeout
+[22:34:10] [127.0.0.1][b65a61fc][ManagementConnection] New connection established.
+[22:34:10] [127.0.0.1][30b58054][ExtensionHostConnection] New connection established.
+[22:34:10] [127.0.0.1][30b58054][ExtensionHostConnection] <4426> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[22:39:10] New EH opened, aborting shutdown
+[22:52:29] [127.0.0.1][b65a61fc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[22:52:30] [127.0.0.1][30b58054][ExtensionHostConnection] <4426> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[22:52:30] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[22:57:30] Last EH closed, shutting down
