@@ -20,8 +20,10 @@ DB 설계
 admin : 대시보드, admin 기능 추가수정삭제 몇개, 로그인로그아웃
 User : Main, 영화 특별관 정보 (네이버 지도 API), 로그인&아웃
 
- 
-![cinema_main](https://user-images.githubusercontent.com/39996770/71716235-5e754e80-2e57-11ea-875c-0fbcd3f63c17.png)
-![cinema](https://user-images.githubusercontent.com/39996770/71716237-5f0de500-2e57-11ea-9438-4459f0b8d647.png)
+<br>
+ ![table](https://user-images.githubusercontent.com/39996770/71717140-6b477180-2e5a-11ea-914b-690d3a749659.PNG) <br>
+![table2](https://user-images.githubusercontent.com/39996770/71717141-6b477180-2e5a-11ea-8254-8a161110f260.PNG) <br>
+![cinema_main](https://user-images.githubusercontent.com/39996770/71716235-5e754e80-2e57-11ea-875c-0fbcd3f63c17.png) <br>
+![cinema](https://user-images.githubusercontent.com/39996770/71716237-5f0de500-2e57-11ea-9438-4459f0b8d647.png) <br>
 ![admin_dashboard](https://user-images.githubusercontent.com/39996770/71716238-5f0de500-2e57-11ea-9ebf-f01ee4405943.png)
 
