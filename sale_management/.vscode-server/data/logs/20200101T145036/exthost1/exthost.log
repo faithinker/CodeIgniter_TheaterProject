@@ -1,0 +1,23 @@
+[2020-01-01 14:50:38.700] [exthost] [info] extension host started
+[2020-01-01 14:50:38.745] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-01-01 14:50:38.745] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/debug-auto-launch/dist/extension
+[2020-01-01 14:50:38.751] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-01-01 14:50:38.751] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/emmet/dist/extension
+[2020-01-01 14:50:38.773] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-01-01 14:50:38.773] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/git/dist/main
+[2020-01-01 14:50:38.814] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-01-01 14:50:38.814] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/merge-conflict/dist/extension
+[2020-01-01 14:50:38.818] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-01-01 14:50:38.818] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/search-result/dist/extension.js
+[2020-01-01 14:50:38.819] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare","_lower":"ms-vsliveshare.vsliveshare"},"activationEvent":"*"}
+[2020-01-01 14:50:38.819] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.1404/out/prod/extension-prod
+[2020-01-01 14:50:39.042] [exthost] [info] ExtensionService#_doActivateExtension Wscats.eno {"startup":true,"extensionId":{"value":"Wscats.eno","_lower":"wscats.eno"},"activationEvent":"*"}
+[2020-01-01 14:50:39.042] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/extensions/wscats.eno-2.1.4/extension
+[2020-01-01 14:50:39.408] [exthost] [info] eager extensions activated
+[2020-01-01 14:50:41.848] [exthost] [info] Extension 'ms-vsliveshare.vsliveshare' uses a document selector without scheme. Learn more about this: https://go.microsoft.com/fwlink/?linkid=872305
+[2020-01-01 14:51:13.809] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"extensionId":{"value":"vscode.configuration-editing","_lower":"vscode.configuration-editing"},"activationEvent":"onLanguage:jsonc"}
+[2020-01-01 14:51:13.810] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/configuration-editing/dist/extension
+[2020-01-01 14:51:13.818] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"extensionId":{"value":"vscode.json-language-features","_lower":"vscode.json-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-01-01 14:51:13.818] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/json-language-features/client/dist/jsonMain
+[2020-01-01 14:51:13.846] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:jsonc"}
+[2020-01-01 14:51:13.846] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/26076a4de974ead31f97692a0d32f90d735645c0/extensions/typescript-language-features/dist/extension

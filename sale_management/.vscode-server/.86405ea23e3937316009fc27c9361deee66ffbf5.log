@@ -1,0 +1,39 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 220.67.174.102
+Extension host agent listening on 39385
+
+
+[13:54:51] Extension host agent started.
+[13:54:52] Deleted from disk wscats.eno /home/sale8/.vscode-server/extensions/wscats.eno-2.1.1
+[13:54:52] [127.0.0.1][f81e104c][ManagementConnection] New connection established.
+[13:54:52] [127.0.0.1][a1ef02ba][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[13:54:52] [127.0.0.1][a1ef02ba][ExtensionHostConnection] <16640> Launched Extension Host Process.
+[13:54:55] Installing extension: ms-vsliveshare.vsliveshare
+[13:54:55] Installing extension: wscats.eno
+[13:55:04] Downloaded extension: ms-vsliveshare.vsliveshare /tmp/e25a75a6-a074-4a3a-b2f0-8851b54f0cc5
+[13:55:05] Downloaded extension: wscats.eno /tmp/cec3f2b7-cc5c-4ada-aa54-d75f68ce699c
+[13:55:05] Extracted extension to /home/sale8/.vscode-server/extensions/.ms-vsliveshare.vsliveshare-1.0.1293: ms-vsliveshare.vsliveshare
+[13:55:05] Renamed to /home/sale8/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.1293
+[13:55:05] Installation completed. ms-vsliveshare.vsliveshare
+[13:55:05] Extensions installed successfully: ms-vsliveshare.vsliveshare
+[13:55:09] Extracted extension to /home/sale8/.vscode-server/extensions/.wscats.eno-2.1.4: wscats.eno
+[13:55:09] Renamed to /home/sale8/.vscode-server/extensions/wscats.eno-2.1.4
+[13:55:09] Installation completed. wscats.eno
+[13:55:10] Extensions installed successfully: wscats.eno
+[16:05:57] [127.0.0.1][f81e104c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:05:58] [127.0.0.1][a1ef02ba][ExtensionHostConnection] <16640> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[16:05:58] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[16:10:58] Last EH closed, shutting down

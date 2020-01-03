@@ -1,0 +1,36 @@
+[2019-12-13 23:29:27.854] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2019-12-13 23:29:27.854] [remoteagent] [info] Extension host agent started.
+[2019-12-13 23:29:27.998] [remoteagent] [info] Deleted from disk ms-vsliveshare.vsliveshare /home/sale8/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.1293
+[2019-12-13 23:29:28.324] [remoteagent] [info] [127.0.0.1][fa438f5f][ManagementConnection] New connection established.
+[2019-12-13 23:29:28.327] [remoteagent] [info] [127.0.0.1][a607dc49][ExtensionHostConnection] New connection established.
+[2019-12-13 23:29:28.486] [remoteagent] [info] [127.0.0.1][a607dc49][ExtensionHostConnection] <29769> Launched Extension Host Process.
+[2019-12-13 23:29:30.350] [remoteagent] [info] Installing extension: ms-ceintl.vscode-language-pack-ko
+[2019-12-13 23:29:31.272] [remoteagent] [info] Downloaded extension: ms-ceintl.vscode-language-pack-ko /tmp/07b06f5d-67b2-45dd-8d5b-f9958c99822d
+[2019-12-13 23:29:31.356] [remoteagent] [info] Extracted extension to /home/sale8/.vscode-server/extensions/.ms-ceintl.vscode-language-pack-ko-1.41.1: ms-ceintl.vscode-language-pack-ko
+[2019-12-13 23:29:31.356] [remoteagent] [info] Renamed to /home/sale8/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.41.1
+[2019-12-13 23:29:31.357] [remoteagent] [info] Installation completed. ms-ceintl.vscode-language-pack-ko
+[2019-12-13 23:29:31.403] [remoteagent] [info] Extensions installed successfully: ms-ceintl.vscode-language-pack-ko
+[2019-12-13 23:29:39.868] [remoteagent] [info] [127.0.0.1][fa438f5f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2019-12-13 23:29:40.896] [remoteagent] [info] [127.0.0.1][a607dc49][ExtensionHostConnection] <29769> Extension Host Process exited with code: 0, signal: null.
+[2019-12-13 23:29:40.897] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2019-12-13 23:29:47.593] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2019-12-13 23:29:47.594] [remoteagent] [info] Cancelling previous shutdown timeout
+[2019-12-13 23:29:47.816] [remoteagent] [info] [127.0.0.1][0ec5aa87][ManagementConnection] New connection established.
+[2019-12-13 23:29:47.834] [remoteagent] [info] [127.0.0.1][02b7e3b5][ExtensionHostConnection] New connection established.
+[2019-12-13 23:29:47.839] [remoteagent] [info] [127.0.0.1][02b7e3b5][ExtensionHostConnection] <29865> Launched Extension Host Process.
+[2019-12-13 23:29:49.373] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-12-13 23:34:47.595] [remoteagent] [info] New EH opened, aborting shutdown
+[2019-12-14 02:17:30.187] [remoteagent] [info] [127.0.0.1][0ec5aa87][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2019-12-14 05:17:25.624] [remoteagent] [info] [127.0.0.1][02b7e3b5][ExtensionHostConnection] <29865> Extension Host Process exited with code: 0, signal: null.
+[2019-12-14 05:17:25.624] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2019-12-14 05:17:30.191] [remoteagent] [info] [127.0.0.1][0ec5aa87][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2019-12-14 05:22:25.691] [remoteagent] [info] Last EH closed, shutting down

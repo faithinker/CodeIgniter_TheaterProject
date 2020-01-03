@@ -1,0 +1,34 @@
+[2019-12-13 18:15:51.716] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2019-12-13 18:15:51.716] [remoteagent] [info] Extension host agent started.
+[2019-12-13 18:15:51.840] [remoteagent] [info] [127.0.0.1][1b2fcf91][ManagementConnection] New connection established.
+[2019-12-13 18:15:51.842] [remoteagent] [info] [127.0.0.1][015ff767][ExtensionHostConnection] New connection established.
+[2019-12-13 18:15:52.033] [remoteagent] [info] [127.0.0.1][015ff767][ExtensionHostConnection] <12662> Launched Extension Host Process.
+[2019-12-13 18:15:54.179] [remoteagent] [info] Installing extension: ms-vsliveshare.vsliveshare
+[2019-12-13 18:15:55.834] [remoteagent] [info] Downloaded extension: ms-vsliveshare.vsliveshare /tmp/89f2715d-1df7-4203-8e82-a32d4251b40c
+[2019-12-13 18:15:56.621] [remoteagent] [info] Extracted extension to /home/sale8/.vscode-server/extensions/.ms-vsliveshare.vsliveshare-1.0.1377: ms-vsliveshare.vsliveshare
+[2019-12-13 18:15:56.621] [remoteagent] [info] Renamed to /home/sale8/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.1377
+[2019-12-13 18:15:56.625] [remoteagent] [info] Installation completed. ms-vsliveshare.vsliveshare
+[2019-12-13 18:15:56.643] [remoteagent] [info] Extensions installed successfully: ms-vsliveshare.vsliveshare
+[2019-12-13 18:16:11.593] [remoteagent] [info] [127.0.0.1][1b2fcf91][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2019-12-13 18:16:15.573] [remoteagent] [info] [127.0.0.1][015ff767][ExtensionHostConnection] <12662> Extension Host Process exited with code: 0, signal: null.
+[2019-12-13 18:16:15.574] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2019-12-13 18:16:21.259] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2019-12-13 18:16:21.259] [remoteagent] [info] Cancelling previous shutdown timeout
+[2019-12-13 18:16:21.322] [remoteagent] [info] [127.0.0.1][8b9c4bd4][ManagementConnection] New connection established.
+[2019-12-13 18:16:21.324] [remoteagent] [info] [127.0.0.1][ae663f04][ExtensionHostConnection] New connection established.
+[2019-12-13 18:16:21.331] [remoteagent] [info] [127.0.0.1][ae663f04][ExtensionHostConnection] <12780> Launched Extension Host Process.
+[2019-12-13 18:21:21.261] [remoteagent] [info] New EH opened, aborting shutdown
+[2019-12-13 20:34:14.899] [remoteagent] [info] [127.0.0.1][8b9c4bd4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2019-12-13 23:34:06.836] [remoteagent] [info] [127.0.0.1][ae663f04][ExtensionHostConnection] <12780> Extension Host Process exited with code: 0, signal: null.
+[2019-12-13 23:34:06.836] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2019-12-13 23:34:14.900] [remoteagent] [info] [127.0.0.1][8b9c4bd4][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2019-12-13 23:39:06.932] [remoteagent] [info] Last EH closed, shutting down

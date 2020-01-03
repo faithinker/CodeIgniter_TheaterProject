@@ -1,0 +1,14 @@
+[2019-11-27 18:41:55.769] [exthost] [info] extension host started
+[2019-11-27 18:41:55.815] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-11-27 18:41:55.815] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/8795a9889db74563ddd43eb0a897a2384129a619/extensions/debug-auto-launch/dist/extension
+[2019-11-27 18:41:55.821] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-11-27 18:41:55.821] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/8795a9889db74563ddd43eb0a897a2384129a619/extensions/emmet/dist/extension
+[2019-11-27 18:41:55.845] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2019-11-27 18:41:55.845] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/8795a9889db74563ddd43eb0a897a2384129a619/extensions/git/dist/main
+[2019-11-27 18:41:55.890] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-11-27 18:41:55.890] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/8795a9889db74563ddd43eb0a897a2384129a619/extensions/merge-conflict/dist/extension
+[2019-11-27 18:41:55.894] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare","_lower":"ms-vsliveshare.vsliveshare"},"activationEvent":"*"}
+[2019-11-27 18:41:55.894] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.1293/out/prod/extension-prod
+[2019-11-27 18:41:56.102] [exthost] [info] ExtensionService#_doActivateExtension Wscats.eno {"startup":true,"extensionId":{"value":"Wscats.eno","_lower":"wscats.eno"},"activationEvent":"*"}
+[2019-11-27 18:41:56.102] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/extensions/wscats.eno-2.1.4/extension
+[2019-11-27 18:41:56.462] [exthost] [info] eager extensions activated

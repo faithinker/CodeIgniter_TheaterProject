@@ -1,0 +1,239 @@
+{
+	"name": "eno",
+	"displayName": "Eno Snippets",
+	"description": "A beautify Visual Studio Code extension for .omi .eno .vue or .scss file",
+	"version": "2.1.4",
+	"author": "Eno Yao",
+	"publisher": "Wscats",
+	"icon": "logos/eno-logo.png",
+	"homepage": "https://wscats.github.io/omi-docs/public/home/index.html",
+	"keywords": [
+		"omi",
+		"omijs",
+		"omi.js",
+		"eno",
+		"eno yao",
+		"yao",
+		"wscats",
+		"yjl",
+		"css",
+		"scss",
+		"sass",
+		"lemon",
+		"laoyao",
+		"one",
+		"jing",
+		"jialong",
+		"yaojialong",
+		"xie",
+		"DK",
+		"lan",
+		"wang",
+		"sha",
+		"react",
+		"rax",
+		"jsx",
+		"sfc",
+		"component",
+		"vue",
+		"single file component",
+		"老姚",
+		"姚",
+		"一一",
+		"htm",
+		"html",
+		"reky"
+	],
+	"activationEvents": [
+		"*",
+		"onCommand:extension.helloWorld"
+	],
+	"main": "./extension",
+	"scripts": {
+		"build": "vsce package"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Wscats/omi-snippets"
+	},
+	"bugs": {
+		"url": "https://github.com/Wscats/omi-snippets/issues",
+		"email": "kalone.cool@gmail.com"
+	},
+	"categories": [
+		"Other",
+		"Programming Languages",
+		"Snippets",
+		"Formatters"
+	],
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "设置欢迎页",
+			"properties": {
+				"vscodePluginDemo.showTip": {
+					"type": "boolean",
+					"default": false,
+					"description": "启动时显示欢迎页"
+				}
+			}
+		},
+		"languages": [
+			{
+				"id": "omi",
+				"aliases": [
+					"Omi"
+				],
+				"extensions": [
+					".omi"
+				],
+				"configuration": "./omi.configuration.json"
+			},
+			{
+				"id": "eno",
+				"aliases": [
+					"Omi"
+				],
+				"extensions": [
+					".eno"
+				],
+				"configuration": "./omi.configuration.json"
+			},
+			{
+				"id": "vue",
+				"aliases": [
+					"vue"
+				],
+				"extensions": [
+					".vue"
+				]
+			},
+			{
+				"id": "html",
+				"extensions": [
+					".omi",
+					".eno",
+					".html",
+					".htm"
+				],
+				"aliases": [
+					"HTML",
+					"htm",
+					"html",
+					"xhtml"
+				]
+			},
+			{
+				"id": "scss",
+				"extensions": [
+					".scss"
+				],
+				"aliases": [
+					"scss",
+					"css"
+				]
+			}
+		],
+		"grammars": [
+			{
+				"language": "omi",
+				"scopeName": "text.html.omi",
+				"path": "./syntaxes/omi.tmLanguage.json"
+			},
+			{
+				"language": "eno",
+				"scopeName": "text.html.omi",
+				"path": "./syntaxes/omi.tmLanguage.json"
+			}
+		],
+		"snippets": [
+			{
+				"language": "omi",
+				"path": "./snippets/omi.json"
+			},
+			{
+				"language": "omi",
+				"path": "./snippets/js.json"
+			},
+			{
+				"language": "omi",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "omi",
+				"path": "./snippets/css.json"
+			},
+			{
+				"language": "eno",
+				"path": "./snippets/omi.json"
+			},
+			{
+				"language": "eno",
+				"path": "./snippets/js.json"
+			},
+			{
+				"language": "eno",
+				"path": "./snippets/html.json"
+			},
+			{
+				"language": "eno",
+				"path": "./snippets/css.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/omi.json"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/omi.json"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/emoji.json"
+			},
+			{
+				"language": "eno",
+				"path": "./snippets/emoji.json"
+			},
+			{
+				"language": "omi",
+				"path": "./snippets/emoji.json"
+			},
+			{
+				"language": "html",
+				"path": "./snippets/emoji.json"
+			}
+		],
+		"commands": [
+			{
+				"command": "extension.eno",
+				"title": "Eno Snippents"
+			}
+		]
+	},
+	"keybindings": [
+		{
+			"command": "extension.eno",
+			"key": "ctrl+f10",
+			"mac": "cmd+f10",
+			"when": "editorTextFocus"
+		}
+	],
+	"license": "MIT",
+	"dependencies": {
+		"@babel/core": "^7.4.4",
+		"@babel/plugin-proposal-class-properties": "^7.4.4",
+		"@babel/preset-env": "^7.4.5",
+		"@babel/preset-react": "^7.0.0",
+		"omil": "^1.9.7",
+		"prettier": "1.17.1"
+	},
+	"__metadata": {
+		"id": "0e8e71fb-6b26-4602-8e4a-1741a7b40a08",
+		"publisherId": "027f4eeb-bcf3-4931-b258-44ea8a1116a5",
+		"publisherDisplayName": "Eno Yao"
+	}
+}

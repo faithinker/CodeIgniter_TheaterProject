@@ -1,0 +1,6 @@
+{
+  "anonymous/anonymous": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkNjVlZDM5ZS05MWQ3LTQwNzgtYTEyMy05NDcxNjZlZThjMTkiLCJhdWQiOiJodHRwczovL2luc2lkZXJzLmxpdmVzaGFyZS52c2VuZ3NhYXMudmlzdWFsc3R1ZGlvLmNvbS8iLCJpc3MiOiJodHRwczovL2luc2lkZXJzLmxpdmVzaGFyZS52c2VuZ3NhYXMudmlzdWFsc3R1ZGlvLmNvbS8iLCJncmFudF90eXBlIjoiYWNjZXNzX3Rva2VuIiwidXNlcklkIjoiZGRhNmIwZjYtNDQ3Ny00YmE0LTg4ZWMtZmI5MWRlM2Y0N2ExIiwic2NwIjoiIiwiYW5vbnltb3VzIjoiYW5vbnltb3VzIiwiaWF0IjoxNTcyNDAzMjAwLCJleHAiOjE1NzMwMDgwMDB9.WtYEBVsDZlG8EyQQL6oi0pHmUn7eepGQz4n4gzKlq7GX6YB0GsjA4TNCIV63unaUzsE5IYB2C7ZnMWBUYTfUTzXF7CNB8H38-CUIkSjLxgy0AIGhWTtacqsiLz2awdZ8rAiZWTbo7BmaTnpytapMxANo5AFPApZS7_nXuU1EDd2_A5sBGLSomQcgCJnqEsZC-VignOjWp8vu-pFLgHfeQ1zFWo61enkgcmRyEmP1M2dJ7aX26wKxQHX0QQ4szYvZ-DXAdMw7c45XFsmh3IvT3i0kJj2dlwYfKy-la-w2wKa1Z3Ps6FIrJ4iJ62YVH9YrhHb9KI9KCEp8qrvRXOVEwQ",
+  "(default)/anonymous": "anonymous",
+  "(default)/(default)": "anonymous",
+  "UserInfo/anonymous|anonymous": "{\"Expires\":\"2019-11-04T02:41:59.9035614Z\",\"UserInfo\":{\"Id\":\"dda6b0f6-4477-4ba4-88ec-fb91de3f47a1\",\"DisplayName\":\"Guest User\",\"EmailAddress\":\"anonymous\",\"UserName\":\"anonymous\",\"AccountStatus\":3,\"AvatarUri\":\"\",\"IsAnonymous\":true,\"ProviderName\":\"anonymous\",\"AccountId\":\"anonymous\"}}"
+}

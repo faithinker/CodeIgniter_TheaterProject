@@ -1,0 +1,2246 @@
+/* _base.scss */
+html,
+body,
+#wrap,
+#content {
+  height: 100%;
+}
+
+a,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+textarea,
+button,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font-size: 13px;
+  color: #000;
+  font-family: NanumSquare, arial, HelveticaNeue, Helvetica,'Apple SD Gothic Neo', applegothic, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+img {
+  vertical-align: top;
+}
+
+li,
+ol,
+ul {
+  list-style: none;
+}
+
+address,
+em,
+i {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  border: 0;
+  background: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.blind {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.fixed {
+  position: fixed !important;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+@media (max-width: 767px) {
+  body,
+  input,
+  textarea,
+  select,
+  button {
+    font-size: 13px;
+    color: #000;
+    font-family: 'AppleSDGothicNeo-Regular', 'Apple SD Gothic Neo', HelveticaNeue, Helvetica, arial, applegothic, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+}
+
+/* _mixin.scss */
+/* clear */
+/* box-sizing */
+/* pc sprite image */
+/* mobile sprite image */
+/* _font.scss */
+@font-face {
+  font-family: 'NanumSquare';
+  src: url("../font/NanumSquare_seR.eot");
+  src: url("../font/NanumSquare_seR.eot?#iefix") format("embedded-opentype"), url("../font/NanumSquare_seR.woff") format("woff"), url("../font/NanumSquare_seR.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'NanumSquareB';
+  src: url("../font/NanumSquare_seB.eot");
+  src: url("../font/NanumSquare_seB.eot?#iefix") format("embedded-opentype"), url("../font/NanumSquare_seB.woff") format("woff"), url("../font/NanumSquare_seB.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: AvenirNext;
+  src: url(../font/AvenirNextRegular.eot);
+  src: url(../font/AvenirNextRegular.eot?#iefix) format("embedded-opentype"), url(../font/AvenirNextRegular.woff) format("woff");
+}
+
+@font-face {
+  font-family: AvenirNextBold;
+  font-weight: 600;
+  src: url(../font/AvenirNextBold.eot);
+  src: url(../font/AvenirNextBold.eot?#iefix) format("embedded-opentype"), url(../font/AvenirNextBold.woff) format("woff");
+}
+
+/* _header.scss */
+#header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #222;
+}
+
+#header .inner {
+  position: relative;
+  max-width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  padding: 0 100px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#header .inner::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+#header .logo {
+  float: left;
+  width: 200px;
+  height: 20px;
+  margin: 30px 53px 0 0;
+  background-image: url("http://gamejigix.induk.ac.kr/~sale8/my/img/logo.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+}
+
+#header .btn_menu {
+  display: none;
+}
+
+#header .menu_box {
+  float: left;
+  padding-top: 33px;
+}
+
+#header .menu_box .menu_list:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+#header .menu_box li {
+  float: left;
+  margin-right: 42px;
+}
+
+#header .menu_box li:last-child {
+  margin: 0;
+}
+
+#header .menu_box a {
+  font-family: HelveticaNeue, Arial;
+  font-size: 17px;
+  color: #ececec;
+}
+
+#header .btn_close {
+  display: none;
+}
+
+#header .lk_naver_d2 {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 100px;
+  width: 104px;
+  height: 24px;
+  margin-top: 28px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: -205px 0;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  #header .inner {
+    height: 60px;
+    padding: 0 20px;
+  }
+  #header .logo {
+    width: 137px;
+    height: 14px;
+    margin: 22px 0 0 0;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+  }
+  #header .btn_menu {
+    display: block;
+    float: right;
+    margin: 12px -10px 0 0;
+    padding: 10px;
+  }
+  #header .btn_menu i {
+    overflow: hidden;
+    display: block;
+    width: 18px;
+    height: 16px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: -213px 0;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+    color: transparent;
+    line-height: 100px;
+  }
+  #header .menu_box {
+    display: none;
+  }
+  #header .menu_box.on {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    background-color: rgba(47, 47, 47, 0.6);
+    z-index: 20;
+  }
+  #header .menu_box.on::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  #header .menu_box.on .lk_naver_d2 {
+    top: auto;
+    bottom: 30px;
+    right: 82px;
+    width: 66px;
+    height: 15px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: -142px 0;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+    z-index: 20;
+  }
+  #header .menu_box .menu_list {
+    float: right;
+    width: 230px;
+    height: 100%;
+    padding-top: 27px;
+    background-color: #222;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  #header .menu_box li {
+    float: none;
+    margin: 0;
+    padding: 10px 30px 10px 29px;
+  }
+  #header .menu_box li:last-child:after {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 14px;
+    background-color: #444;
+    content: '';
+  }
+  #header .menu_box a {
+    display: block;
+    margin-right: 20px;
+    padding: 4px 0;
+    font-family: -apple-system;
+    font-weight: 500;
+  }
+  #header .menu_box .btn_close {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+  }
+  #header .menu_box .btn_close i {
+    overflow: hidden;
+    display: block;
+    width: 19px;
+    height: 19px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: -236px 0;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+    color: transparent;
+    line-height: 100px;
+  }
+  #header .lk_naver_d2 {
+    display: none;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1030px) {
+  #header .inner {
+    padding: 0 40px;
+  }
+  #header .lk_naver_d2 {
+    right: 40px;
+  }
+}
+
+/* _main.scss */
+#container .inner {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 100px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.main {
+  height: 889px;
+  padding-top: 80px;
+  background-color: #222;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.main [class*="img_"], .main [class*="text_"], .main .btn_box {
+  position: relative;
+  margin: 0 auto;
+  opacity: 0;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+.ie9 .main [class*="img_"], .ie9 .main [class*="text_"], .ie9 .main .btn_box {
+  opacity: 1;
+}
+
+.ie9 .main .img_circle {
+  margin-top: 40px;
+}
+
+.main .inner {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.main .img_circle {
+  width: 306px;
+  height: 102px;
+  margin-top: 80px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: 0 -141px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  opacity: 1 !important;
+  animation-name: animation_circle;
+}
+
+.main .img_circle_black {
+  width: 408px;
+  height: 102px;
+  margin-top: -52px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: 0 -248px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  animation-name: animation_circle_black;
+  animation-delay: .3s;
+}
+
+.main .img_naver {
+  width: 394px;
+  height: 78px;
+  margin-top: -46px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: 0 -355px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  animation-name: animation_main;
+  animation-delay: .6s;
+}
+
+.main .img_tech {
+  width: 292px;
+  height: 80px;
+  margin-top: 6px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: 0 -437px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  animation-name: animation_main;
+  animation-delay: .6s;
+}
+
+.main .img_concert {
+  width: 534px;
+  height: 80px;
+  margin-top: 4px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: 0 -522px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  animation-name: animation_main;
+  animation-delay: .6s;
+}
+
+.main .img_dot {
+  width: 44px;
+  height: 18px;
+  margin: 19px auto -1px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: -160px -25px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  animation-name: animation_main;
+  animation-delay: .8s;
+}
+
+.main .text_theme {
+  font-family: AvenirNextBold;
+  font-size: 72px;
+  color: #fff;
+  letter-spacing: -2px;
+  animation-name: animation_main;
+  animation-delay: 1s;
+}
+
+.main .text_date {
+  padding-top: 4px;
+  font-family: AvenirNextBold;
+  font-size: 32px;
+  color: #fff;
+  letter-spacing: -.3px;
+  animation-name: animation_main;
+  animation-delay: 1s;
+}
+
+.main .text_place {
+  display: inline-block;
+  padding-top: 5px;
+  font-size: 17px;
+  color: #fff;
+  letter-spacing: -.21px;
+  animation-name: animation_main;
+  animation-delay: 1s;
+}
+
+.main .text_place::before {
+  display: block;
+  float: left;
+  width: 11px;
+  height: 15px;
+  margin: 1px 6px 0 0;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: -209px -25px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  content: '';
+}
+
+.main .text_place::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.main .btn_box {
+  margin: 50px auto 0;
+  text-align: center;
+  animation-name: animation_main;
+  animation-delay: 1.2s;
+}
+
+.main .btn_box .btn {
+  overflow: hidden;
+  display: inline-block;
+  width: auto;
+  height: 70px;
+  padding: 0 20px;
+  background-color: #222;
+  border: 1px solid #fff;
+  border-radius: 35px;
+  font-family: NanumSquareB;
+  font-size: 24px;
+  color: #fff;
+  line-height: 70px;
+}
+
+.main .btn_box .btn + .btn {
+  margin-left: 16px;
+}
+
+.main .btn_box .btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #222;
+}
+
+@keyframes animation_circle {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: -40px;
+    opacity: 1;
+  }
+}
+
+@keyframes animation_circle_black {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: -40px;
+    opacity: 1;
+  }
+}
+
+@keyframes animation_main {
+  from {
+    top: 0;
+    opacity: 0;
+  }
+  to {
+    top: -30px;
+    opacity: 1;
+  }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  #container .inner {
+    padding: 0 20px;
+  }
+  #container .main {
+    height: auto;
+    min-height: 533px;
+    padding: 60px 0 24px;
+  }
+  #container .main .img_circle {
+    width: 169px;
+    height: 55px;
+    margin-top: 60px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: 0 -19px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+  }
+  #container .main .img_circle_black {
+    width: 225px;
+    height: 55px;
+    margin-top: -28px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: 0 -80px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+  }
+  #container .main .img_naver {
+    width: 206px;
+    height: 41px;
+    margin-top: -34px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: 0 -140px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+  }
+  #container .main .img_tech {
+    width: 152px;
+    height: 42px;
+    margin-top: 3px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: 0 -186px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+  }
+  #container .main .img_concert {
+    width: 279px;
+    height: 42px;
+    margin-top: 2px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: 0 -233px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+  }
+  #container .main .img_dot {
+    width: 24px;
+    height: 10px;
+    margin: 12px auto 1px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: -174px -48px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+  }
+  #container .main .text_theme {
+    font-size: 42px;
+    letter-spacing: -1.5px;
+  }
+  #container .main .text_date {
+    font-size: 20px;
+  }
+  #container .main .text_place {
+    padding-top: 2px;
+    font-size: 15px;
+    letter-spacing: -.3px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  #container .main .text_place::before {
+    width: 10px;
+    height: 14px;
+    margin: 1px 6px 0 0;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: -215px -48px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+    content: '';
+  }
+  #container .main .text_place::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  #container .main .btn_box {
+    margin: 26px auto 0;
+  }
+  #container .main .btn_box .btn {
+    display: block;
+    width: 250px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: #222;
+    font-family: AppleSDGothicNeo-SemiBold;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    line-height: 50px;
+  }
+  #container .main .btn_box .btn + .btn {
+    margin: 12px auto 0;
+  }
+  #container .main .btn_box .btn:hover, #container .main .btn_box .btn:focus, #container .main .btn_box .btn:active {
+    background-color: #fff;
+    color: #222;
+  }
+  @keyframes animation_main {
+    from {
+      top: 0;
+      opacity: 0;
+    }
+    to {
+      top: -26px;
+      opacity: 1;
+    }
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1030px) {
+  #container .inner {
+    padding: 0 40px;
+  }
+  #container .img_circle_black {
+    animation-delay: .6s;
+  }
+  #container .img_naver,
+  #container .img_tech,
+  #container .img_concert {
+    animation-delay: .9s;
+  }
+  #container .img_dot {
+    animation-delay: 1.1s;
+  }
+  #container .text_theme,
+  #container .text_date,
+  #container .text_place {
+    animation-delay: 1.3s;
+  }
+  #container .btn_box {
+    animation-delay: 1.5s;
+  }
+}
+
+/* _explain.scss */
+.explain {
+  padding: 80px 0 74px 0;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #ededed;
+  text-align: center;
+}
+
+.explain::before {
+  display: block;
+  width: 90px;
+  height: 30px;
+  margin: 0 auto 22px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: 0 -25px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  content: '';
+}
+
+.explain .text {
+  font-size: 20px;
+  color: #333;
+  line-height: 35px;
+  letter-spacing: -.3px;
+}
+
+.explain .text em {
+  font-family: NanumSquareB;
+}
+
+.explain .explain_list {
+  display: inline-block;
+  margin: 0 -100px;
+  padding-top: 33px;
+}
+
+.explain .explain_list::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.explain .explain_list li {
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 280px;
+  height: 280px;
+  margin-left: -2px;
+  padding-top: 93px;
+  border-radius: 140px;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.explain .explain_list li::before {
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 276px;
+  height: 276px;
+  background-color: #fff;
+  border-radius: 138px;
+  content: '';
+}
+
+.explain .explain_list li:first-child {
+  margin: 0;
+  background: url(../img/bg_explain.png) repeat 0 0;
+  background-size: 280px 1px;
+  -webkit-background-size: 280px 1px;
+}
+
+.explain .explain_list li:nth-child(2) {
+  background: url(../img/bg_explain2.png) repeat 0 0;
+  background-size: 280px 1px;
+  -webkit-background-size: 280px 1px;
+}
+
+.explain .explain_list li:last-child {
+  background-color: #2ea7e0;
+}
+
+.explain .explain_list li strong, .explain .explain_list li p {
+  position: relative;
+  z-index: 10;
+  font-size: 18px;
+  color: #555;
+  line-height: 26px;
+  letter-spacing: -.3px;
+}
+
+.explain .explain_list li strong {
+  display: block;
+  padding-bottom: 12px;
+  font-family: NanumSquareB;
+  font-size: 22px;
+  font-weight: normal;
+  color: #222;
+}
+
+.explain .guide {
+  padding-top: 27px;
+  font-size: 16px;
+  color: #666;
+  line-height: 24px;
+  word-break: keep-all;
+}
+
+.explain .app_download {
+  display: inline-block;
+  align: center;
+  padding-top: 50px;
+  padding-bottom: 17px;
+}
+
+.explain .app_download .title {
+  display: block;
+  font-size:24px;
+  align: center;
+  font-family: AppleSDGothicNeo-SemiBold;
+  padding-bottom:24px;
+  color: #222
+}
+
+.explain .app_download .caption {
+  width: 100px;
+  font-size: 16px;
+  text-align: center;
+  color: #666;
+}
+
+.explain .app_download .caption .qr_code{
+  width: 100px;
+  height: 100px;
+  padding-bottom: 0.5em;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .explain {
+    padding: 50px 0;
+  }
+  .explain::before {
+    width: 56px;
+    height: 19px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: -174px -24px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+    content: '';
+  }
+  .explain .text {
+    padding: 0 3px;
+    font-size: 16px;
+    line-height: 28px;
+    word-break: keep-all;
+  }
+  .explain .text br {
+    display: none;
+  }
+  .explain .explain_list {
+    margin: 0;
+    padding-top: 30px;
+  }
+  .explain .explain_list li {
+    float: none;
+    width: 200px;
+    height: 200px;
+    margin: -2px auto 0;
+    padding-top: 60px;
+    border-radius: 100px;
+  }
+  .explain .explain_list li::before {
+    width: 196px;
+    height: 196px;
+    border-radius: 98px;
+  }
+  .explain .explain_list li:first-child {
+    margin-top: 0;
+    background: none;
+    background-image: linear-gradient(#ffdb00, #08da76);
+  }
+  .explain .explain_list li:nth-child(2) {
+    background: none;
+    background-image: linear-gradient(#08da76, #2ea7e0);
+  }
+  .explain .explain_list li strong {
+    padding-bottom: 11px;
+    font-family: AppleSDGothicNeo-SemiBold;
+    font-size: 20px;
+  }
+  .explain .explain_list li p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1030px) {
+  .explain .explain_list {
+    margin: 0 -40px;
+  }
+  .explain .explain_list li {
+    width: 230px;
+    height: 230px;
+    padding-top: 69px;
+    border-radius: 115px;
+  }
+  .explain .explain_list li::before {
+    width: 226px;
+    height: 226px;
+    border-radius: 113px;
+  }
+  .explain .explain_list li:first-child {
+    background: url(../img/bg_explain_tb.png) repeat 0 0;
+    background-size: 230px 1px;
+    -webkit-background-size: 230px 1px;
+  }
+  .explain .explain_list li:nth-child(2) {
+    background: url(../img/bg_explain_tb2.png) repeat 0 0;
+    background-size: 230px 1px;
+    -webkit-background-size: 230px 1px;
+  }
+  .explain .explain_list li p {
+    font-size: 17px;
+  }
+}
+
+/* _program.scss */
+.program {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.program h2 {
+  display: block;
+  width: 242px;
+  height: 36px;
+  margin: 0 auto 50px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: 0 -59px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+}
+
+.program_list {
+  border-top: 2px solid #111;
+}
+
+.program_list li {
+  position: relative;
+  min-height: 77px;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.program_list li:first-child .program_box {
+  background-color: #f1f1f1;
+  color: #777;
+}
+
+.program_list li:last-child .program_box,
+.program_list li.lunch .program_box {
+  background-color: #fafafa;
+  color: #777;
+}
+
+.program_list li:last-child .program_box .content_box,
+.program_list li.lunch .program_box .content_box {
+  padding-right: 0;
+}
+.program_list li .program_box .content_box .long_title {
+    display: inline;
+    padding-right: 16px;
+    font-weight: bold;
+    letter-spacing: -0.4px;
+    word-break: keep-all;
+}
+
+.program_list .program_box {
+  display: table;
+  width: 100%;
+  min-height: 76px;
+  color: #111;
+  table-layout: fixed;
+}
+
+.program_list a.program_box::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  width: 8px;
+  height: 15px;
+  margin-top: -7px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: -109px -25px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  content: '';
+}
+
+.program_list a.program_box:hover .title {
+  text-decoration: underline;
+}
+
+.program_list .time_box {
+  display: table-cell;
+  width: 190px;
+  min-height: 76px;
+  padding: 0 33px;
+  font-size: 18px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  letter-spacing: -.4px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.program_list .content_box {
+  display: table-cell;
+  min-height: 76px;
+  padding: 19px 57px 15px 9px;
+  font-size: 19px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.program_list .content_box .title {
+  display: inline;
+  padding-right: 21px;
+  font-weight: bold;
+  letter-spacing: -.3px;
+  word-break: keep-all;
+}
+
+.program_list .content_box .title em {
+  padding: 0 16px 0 18px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #666;
+  letter-spacing: -.2px;
+}
+
+.program_list .content_box .title a {
+  border-bottom: 1px solid #666;
+  font-size: 16px;
+  color: #666;
+}
+
+.program_list .content_box .title a::after {
+  display: inline-block;
+  width: 5px;
+  height: 9px;
+  margin-left: 4px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: -122px -25px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  content: '';
+}
+
+.program_list .content_box .speaker {
+  display: block;
+  font-size: 16px;
+  color: #666;
+  letter-spacing: -.2px;
+  padding-top:3px;
+}
+
+.program_list .content_box .bar {
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  margin: 0 7px 0 9px;
+  background-color: #a7a7a7;
+  vertical-align: -1px;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .program {
+    padding: 50px 0;
+  }
+  .program h2 {
+    width: 179px;
+    height: 27px;
+    margin-bottom: 32px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: 0 -280px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+  }
+  .program_list li, .program_list .program_box {
+    display: block;
+    min-height: 61px;
+  }
+  .program_list li .time_box, .program_list li .content_box, .program_list .program_box .time_box, .program_list .program_box .content_box {
+    min-height: 60px;
+  }
+  .program_list li.lunch .time_box, .program_list li.lunch .content_box, .program_list .program_box.lunch .time_box, .program_list .program_box.lunch .content_box {
+    min-height: 61px;
+  }
+  .program_list a.program_box::after {
+    right: 12px;
+    width: 7px;
+    height: 13px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: -203px -48px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+  }
+  .program_list .time_box {
+    width: 66px;
+    padding: 0;
+    font-family: -apple-system;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  .program_list .time_box span {
+    display: none;
+  }
+  .program_list .time_box span:first-of-type {
+    display: inline-block;
+  }
+  .program_list .content_box {
+    padding: 19px 25px 15px 5px;
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .program_list .content_box .title {
+    font-family: AppleSDGothicNeo-SemiBold;
+    font-size: 16px;
+  }
+  .program_list .content_box .title em {
+    font-family: AppleSDGothicNeo-Regular;
+    font-size: 14px;
+    padding: 0 0 0 0;
+    letter-spacing: -.3px;
+  }
+  .program_list .content_box .title em::before {
+    display: block;
+    content: '';
+  }
+  .program_list .content_box .title a {
+    margin-left: 3px;
+    font-family: AppleSDGothicNeo-SemiBold;
+    font-size: 14px;
+    letter-spacing: -.3px;
+    white-space: nowrap;
+  }
+  .program_list .content_box .speaker {
+    display: block;
+    padding-top: 2px;
+    font-size: 14px;
+    letter-spacing: -.3px;
+  }
+}
+
+/* tablet*/
+@media (min-width: 768px) and (max-width: 1030px) {
+  .program_list .content_box {
+    padding: 29px 57px 27px 9px;
+  }
+  .program_list .content_box .title {
+    display: block;
+    padding: 0;
+  }
+  .program_list .content_box .speaker {
+    display: block;
+    padding: 6px 0 1px;
+  }
+}
+
+/* tablet, pc */
+@media (min-width: 768px) {
+  .program_list .time_box {
+    font-family: NanumSquareB;
+  }
+  .program_list .content_box {
+    width: 100%;
+  }
+  .program_list .content_box .title {
+    font-family: NanumSquareB;
+  }
+  .program_list .content_box .title em {
+    font-family: NanumSquare;
+  }
+  .program_list .content_box .speaker {
+    font-family: NanumSquare;
+  }
+}
+
+/* _direction.scss */
+.direction {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ededed;
+}
+
+.direction h2 {
+  display: block;
+  width: 257px;
+  height: 36px;
+  margin: 0 auto 50px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: 0 -100px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+}
+
+.direction .map_box {
+  overflow: hidden;
+  position: relative;
+  max-width: 1000px;
+  height: 370px;
+  margin: 0 auto;
+}
+
+.direction .map_box::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #e5e5e5;
+  content: '';
+}
+
+.direction .traffic_guide {
+  max-width: 1000px;
+  margin: 40px auto 0;
+}
+
+.direction .traffic_guide::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.direction .traffic_guide dt {
+  float: left;
+  clear: both;
+  padding: 0 51px 29px 0;
+  font-size: 20px;
+  letter-spacing: -.3px;
+  color: #111;
+}
+
+.direction .traffic_guide dd {
+  overflow: hidden;
+  font-size: 18px;
+  padding: 2px 0 30px;
+  color: #111;
+}
+
+.direction .traffic_guide dd .traffic_list li:first-child {
+  padding-bottom: 20px;
+}
+
+.direction .traffic_guide .bus_list {
+  padding-top: 18px;
+}
+
+.direction .traffic_guide .bus_list li {
+  padding-bottom: 14px !important;
+  font-size: 16px;
+  color: #666;
+}
+
+.direction .traffic_guide .bus_list li em {
+  overflow: hidden;
+  display: inline-block;
+  width: 58px;
+  height: 24px;
+  margin-right: 10px;
+  border-radius: 12px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.direction .traffic_guide .bus_list li .express {
+  background-color: #f55a17;
+}
+
+.direction .traffic_guide .bus_list li .regular {
+  background-color: #385cb3;
+}
+
+.direction .traffic_guide .bus_list li .town {
+  background-color: #4fa231;
+}
+
+.direction .traffic_guide .bus_list li span {
+  vertical-align: -1px;
+}
+
+.direction .traffic_guide p {
+  padding-top: 3px;
+  font-size: 16px;
+  color: #555;
+}
+
+.direction .information_box {
+  max-width: 1000px;
+  margin: 9px auto 0;
+  padding: 17px 30px 24px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.direction .information_box li {
+  position: relative;
+  padding: 8px 0 0 10px;
+  font-size: 17px;
+  color: #555;
+  line-height: 26px;
+  letter-spacing: -.28px;
+}
+
+.direction .information_box li::before {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  display: block;
+  width: 2px;
+  height: 2px;
+  background-color: #555;
+  content: '';
+}
+
+.direction .information_box li a {
+  border-bottom: 1px solid #555;
+  color: #555;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .direction {
+    padding: 50px 0;
+  }
+  .direction h2 {
+    width: 190px;
+    height: 27px;
+    margin-bottom: 30px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: 0 -312px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+  }
+  .direction .map_box {
+    height: 300px;
+    margin: 0 -20px;
+  }
+  .direction .map_box::after {
+    display: none;
+  }
+  .direction .traffic_guide {
+    margin-top: 31px;
+  }
+  .direction .traffic_guide dt {
+    padding: 3px 18px 12px 0;
+    font-family: AppleSDGothicNeo-SemiBold;
+    font-size: 16px;
+  }
+  .direction .traffic_guide dd {
+    padding: 0 0 13px;
+    font-size: 15px;
+    letter-spacing: -.3px;
+    line-height: 26px;
+  }
+  .direction .traffic_guide dd .traffic_list li:first-child {
+    padding-bottom: 7px;
+  }
+  .direction .traffic_guide .bus_list li {
+    padding-bottom: 11px !important;
+    font-family: -apple-system;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -.3px;
+  }
+  .direction .traffic_guide .bus_list li::after {
+    display: block;
+    clear: both;
+    content: '';
+  }
+  .direction .traffic_guide .bus_list li em {
+    float: left;
+    width: 40px;
+    padding-top: 1px;
+    font-family: AppleSDGothicNeo-SemiBold;
+    font-size: 13px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  .direction .traffic_guide .bus_list li span {
+    overflow: hidden;
+    position: relative;
+    top: 1px;
+  }
+  .direction .traffic_guide p {
+    padding-top: 1px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #555;
+  }
+  .direction .information_box {
+    margin-top: 11px;
+    padding: 7px 12px 15px;
+  }
+  .direction .information_box li {
+    padding-left: 7px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -.3px;
+  }
+  .direction .information_box li::before {
+    top: 19px;
+  }
+  .direction .information_box li span {
+    display: none;
+  }
+  .direction .information_box li a {
+    font-family: -apple-system;
+    text-transform: uppercase;
+  }
+}
+
+/* tablet, pc */
+@media (min-width: 768px) {
+  .direction .traffic_guide dt, .direction .traffic_guide dd em {
+    font-family: NanumSquareB;
+  }
+}
+
+/* _no_search.scss */
+.error {
+  height: 100%;
+}
+
+.error #content {
+  text-align: center;
+}
+
+.error #content::before {
+  display: inline-block;
+  width: 1px;
+  height: 100%;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: '';
+}
+
+.no_search {
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: -.3px;
+}
+
+.no_search strong {
+  display: block;
+  padding-bottom: 22px;
+  font-size: 32px;
+  color: #111;
+}
+
+.no_search strong::before {
+  display: block;
+  width: 200px;
+  height: 66px;
+  margin: 0 auto 15px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: -319px -141px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  content: '';
+}
+
+.no_search .search_guide {
+  padding: 0 20px;
+  font-size: 18px;
+  color: #333;
+  line-height: 31px;
+  word-break: keep-all;
+}
+
+.no_search .btn_home {
+  display: block;
+  width: 216px;
+  height: 70px;
+  margin: 41px auto 0;
+  border: 1px solid #333;
+  border-radius: 35px;
+  background-color: #fff;
+  font-size: 24px;
+  color: #333;
+}
+
+.no_search .btn_home:hover {
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .no_search strong span {
+    display: block;
+  }
+  .no_search strong {
+    font-family: AppleSDGothicNeo-SemiBold;
+    font-size: 30px;
+  }
+  .no_search strong::before {
+    width: 150px;
+    height: 50px;
+    background-image: url("../img/sp_techconcert_mo.png");
+    background-repeat: no-repeat;
+    background-position: -195px -280px;
+    background-size: 345px 339px;
+    -webkit-background-size: 345px 339px;
+  }
+  .no_search .search_guide {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .no_search .search_guide br {
+    display: none;
+  }
+  .no_search .btn_home {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: AppleSDGothicNeo-SemiBold;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+/* tablet */
+/* tablet, pc */
+@media (min-width: 768px) {
+  .no_search strong, .no_search .btn_home {
+    font-family: NanumSquareB;
+  }
+}
+
+/* _popup.scss */
+.ly_popup {
+  display: none;
+}
+
+.ly_popup.on {
+  overflow-y: auto;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(47, 47, 47, 0.6);
+  text-align: center;
+  z-index: 20;
+}
+
+.ly_popup.on::before {
+  display: inline-block;
+  width: 1px;
+  height: 100%;
+  vertical-align: middle;
+  content: '';
+}
+
+.ly_popup .ly_box {
+  display: inline-block;
+  position: relative;
+  width: 640px;
+  padding: 33px 30px 30px;
+  background-color: #fff;
+  text-align: left;
+  vertical-align: middle;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.ly_popup .ly_box::before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background-image: linear-gradient(to right, #ffdb00, #02da76 50%, #2ea7df);
+  content: '';
+}
+
+.ly_popup [class*="num_type"] {
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  padding-top: 4px;
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.ly_popup .num_type_blue {
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: -247px -59px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+}
+
+.ly_popup .num_type_green {
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: -283px -59px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+}
+
+.ly_popup .num_type_yellow {
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: -319px -59px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+}
+
+.ly_popup .btn_ly_close {
+  display: block;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  padding: 10px;
+}
+
+.ly_popup .btn_ly_close i {
+  overflow: hidden;
+  display: block;
+  width: 19px;
+  height: 19px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: -225px -25px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  line-height: 100px;
+}
+
+.ly_popup .time {
+  vertical-align: 0;
+}
+
+.ly_popup .time em {
+  letter-spacing: -.53px;
+}
+
+.ly_popup .time span {
+  padding-left: 6px;
+  font-size: 16px;
+  color: #222;
+  letter-spacing: -.57px;
+}
+
+.ly_popup .title_box {
+  padding: 10px 0 29px;
+}
+
+.ly_popup .title_box h3 {
+  font-size: 32px;
+  line-height: 43px;
+  letter-spacing: -.3px;
+  color: #111;
+}
+
+.ly_popup .title_box .sub_title {
+  padding: 9px 0 6px;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: -.3px;
+  color: #111;
+}
+
+.ly_popup .content_list {
+  padding: 30px 0 29px;
+  border-top: 1px solid #ededed;
+  color: #111;
+  letter-spacing: -.3px;
+}
+
+.ly_popup .content_list dt {
+  float: left;
+  clear: both;
+  width: 100px;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.ly_popup .content_list dt:nth-of-type(2) {
+  padding-top: 28px;
+}
+
+.ly_popup .content_list dd {
+  overflow: hidden;
+}
+
+.ly_popup .content_list dd p, .ly_popup .content_list dd li {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.ly_popup .content_list dd li span {
+  padding-right: 3px;
+}
+
+.ly_popup .content_list dd:nth-of-type(2) {
+  padding-top: 23px;
+}
+
+.ly_popup .content_list dd:last-of-type .btn {
+  margin-bottom: 0;
+}
+
+.ly_popup .btn {
+  overflow: hidden;
+  display: inline-block;
+  width: 80px;
+  height: 36px;
+  margin: 13px 7px 7px 0;
+  border: 1px solid #d5d5d5;
+  background-color: #fff;
+  font-size: 13px;
+  color: #000;
+  text-align: center;
+  line-height: 35px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.ly_popup .speaker_information {
+  padding-top: 30px;
+  border-top: 1px solid #ededed;
+}
+
+.ly_popup .speaker_information::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.ly_popup .speaker_information::after {
+  display: block;
+  padding-top: 30px;
+  clear: both;
+  content: '';
+}
+
+.ly_popup .speaker_information .img_box {
+  float: left;
+  margin-right: 20px;
+  border-radius: 40px;
+}
+
+.ly_popup .speaker_information .img_box img {
+  border-radius: 40px;
+}
+
+.ly_popup .speaker_information .text_box {
+  overflow: hidden;
+}
+
+.ly_popup .speaker {
+  color: #111;
+}
+
+.ly_popup .speaker strong {
+  font-size: 14px;
+  letter-spacing: -.3px;
+}
+
+.ly_popup .speaker span {
+  display: block;
+  padding: 7px 0 12px;
+  font-size: 13px;
+  letter-spacing: -.2px;
+}
+
+.ly_popup .speaker_text {
+  font-size: 13px;
+  color: #888;
+  line-height: 20px;
+}
+
+.ly_popup .program_list {
+  margin-top: -7px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ededed;
+}
+
+.ly_popup .program_list li {
+  display: table;
+  width: 100%;
+  min-height: 104px;
+  border-bottom: 1px solid #ededed;
+  background-color: #fff;
+  table-layout: fixed;
+}
+
+.ly_popup .program_list .list_number {
+  display: table-cell;
+  width: 31px;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+.ly_popup .program_list .content_box {
+  min-height: 103px;
+  padding: 21px 57px 27px 9px;
+}
+
+.ly_popup .program_list .content_box .title {
+  display: block;
+  padding: 0;
+  color: #111;
+  line-height: 31px;
+  word-break: break-all;
+}
+
+.ly_popup .program_list .content_box .speaker {
+  display: block;
+  padding-top: 2px;
+}
+
+.ly_popup .program_list .content_box .speaker .bar {
+  padding: 0;
+}
+
+.ly_popup .program_list .btn_box {
+  display: table-cell;
+  width: 80px;
+  vertical-align: middle;
+}
+
+.ly_popup .program_list .btn_box .btn {
+  margin: 0;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  .ly_popup.on {
+    -webkit-overflow-scrolling: touch;
+  }
+  .ly_popup.on .ly_box {
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 37px 20px 30px;
+  }
+  .ly_popup.on [class*="num_type"] {
+    padding-top: 2px;
+    font-family: -apple-system;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .ly_popup.on .time span {
+    font-family: -apple-system;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  .ly_popup.on .title_box {
+    padding-bottom: 27px;
+  }
+  .ly_popup.on .title_box h3 {
+    font-family: AppleSDGothicNeo-SemiBold;
+  }
+  .ly_popup.on .title_box .sub_title {
+    padding: 8px 0 3px;
+    line-height: 28px;
+  }
+  .ly_popup.on .content_list {
+    padding-top: 28px;
+  }
+  .ly_popup.on .content_list dt {
+    float: none;
+    padding: 0 0 11px 0;
+    font-family: AppleSDGothicNeo-Bold;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -.3px;
+  }
+  .ly_popup.on .content_list dt:nth-of-type(2) {
+    padding-top: 21px;
+  }
+  .ly_popup.on .content_list dd p, .ly_popup.on .content_list dd li {
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -.3px;
+  }
+  .ly_popup.on .content_list dd .btn_program {
+    margin: 12px 7px 6px 0;
+  }
+  .ly_popup.on .content_list dd:nth-of-type(2) {
+    padding-top: 0;
+  }
+  .ly_popup.on .speaker {
+    padding: 0 0 10px;
+  }
+  .ly_popup.on .speaker strong {
+    font-family: AppleSDGothicNeo-SemiBold;
+    font-size: 15px;
+    letter-spacing: -.2px;
+  }
+  .ly_popup.on .speaker span {
+    padding: 4px 0 0;
+  }
+  .ly_popup.on .program_list li {
+    min-height: 83px;
+  }
+  .ly_popup.on .program_list .list_number {
+    padding: 0;
+  }
+  .ly_popup.on .program_list .content_box {
+    min-height: 82px;
+    padding: 17px 15px 16px 15px;
+  }
+  .ly_popup.on .program_list .content_box .title {
+    line-height: 24px;
+    word-break: keep-all;
+  }
+  .ly_popup.on .program_list .content_box .speaker {
+    padding-bottom: 0;
+  }
+}
+
+/* tablet, pc */
+@media (min-width: 768px) {
+  .ly_popup [class*="num_type"], .ly_popup .time span {
+    font-family: NanumSquareB;
+  }
+  .ly_popup .ly_box h3, .ly_popup .ly_box .content_list dt, .ly_popup .ly_box .speaker strong {
+    font-family: NanumSquareB;
+  }
+}
+
+/* _footer.scss */
+#footer {
+  height: 91px;
+  background-color: #222;
+}
+
+#footer.fixed {
+  bottom: 0;
+  height: auto;
+}
+
+#footer.fixed .copyright {
+  padding: 0 0 36px 0;
+  background-color: #fff;
+}
+
+#footer .inner {
+  position: relative;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#footer .sns_share {
+  position: absolute;
+  top: 33px;
+  left: 100px;
+}
+
+#footer .sns_share li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#footer .sns_share li:first-child {
+  margin: 0;
+}
+
+#footer .sns_share a {
+  display: inline-block;
+  height: 23px;
+  font-size: 24px;
+  color: #999;
+}
+
+#footer .sns_share a.facebook {
+  margin-top: 2px;
+  font-size: 21px;
+}
+
+#footer .sns_share a.mail {
+  margin-left: 19px;
+  font-size: 24px;
+}
+
+#footer .sns_share a.d2 {
+  margin-left: 17px;
+  font-size: 25px;
+}
+
+#footer .copyright {
+  padding-top: 42px;
+  font-family: HelveticaNeue, arial;
+  text-align: center;
+  color: #999;
+}
+
+#footer .copyright a {
+  font-weight: bold;
+  color: #999;
+}
+
+#footer .copyright a:hover {
+  text-decoration: underline;
+}
+
+#footer .past_event {
+  position: absolute;
+  top: 31px;
+  right: 100px;
+}
+
+#footer .past_event span {
+  display: inline-block;
+  padding-right: 18px;
+  font-size: 13px;
+  color: #999;
+}
+
+#footer .past_event .event_box {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 30px;
+  border: 1px solid #555;
+  border-radius: 15px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#footer .past_event .event_box::after {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  width: 9px;
+  height: 5px;
+  background-image: url("../img/sp_techconcert.png");
+  background-repeat: no-repeat;
+  background-position: -146px -25px;
+  background-size: 534px 602px;
+  -webkit-background-size: 534px 602px;
+  content: '';
+}
+
+#footer .past_event .event_box.on::after {
+  background-position: -132px -25px;
+}
+
+#footer .past_event .event_box.on .ly_event {
+  display: block;
+  position: absolute;
+  bottom: 39px;
+  left: 0;
+  width: 150px;
+  padding: 9px 0 7px;
+  border: 1px solid #d5d5d5;
+  background-color: #fff;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#footer .past_event .event_box.on .ly_event li {
+  font-family: HelveticaNeue, arial;
+  font-size: 13px;
+  letter-spacing: -.3px;
+}
+
+#footer .past_event .event_box.on .ly_event a {
+  display: block;
+  padding: 4px 13px 5px;
+  color: #222;
+}
+
+#footer .past_event .event_box .btn_event {
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 14px;
+  font-family: HelveticaNeue, arial;
+  font-size: 13px;
+  color: #fff;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: -.3px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+#footer .past_event .event_box .ly_event {
+  display: none;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  #footer {
+    height: 110px;
+  }
+  #footer .inner {
+    padding: 0 20px;
+  }
+  #footer .sns_share {
+    top: 22px;
+    left: 20px;
+  }
+  #footer .copyright {
+    padding-top: 69px;
+  }
+  #footer .past_event {
+    top: 20px;
+    right: 20px;
+  }
+  #footer .past_event span {
+    opacity: 0;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 1030px) {
+  #footer .inner {
+    padding: 0 40px;
+  }
+  #footer .sns_share {
+    left: 40px;
+  }
+  #footer .past_event {
+    right: 40px;
+  }
+}

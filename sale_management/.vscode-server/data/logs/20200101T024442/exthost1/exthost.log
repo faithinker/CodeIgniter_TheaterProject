@@ -1,0 +1,17 @@
+[2020-01-01 02:44:43.571] [exthost] [info] extension host started
+[2020-01-01 02:44:43.620] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-01-01 02:44:43.621] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/debug-auto-launch/dist/extension
+[2020-01-01 02:44:43.627] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-01-01 02:44:43.627] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/emmet/dist/extension
+[2020-01-01 02:44:43.650] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-01-01 02:44:43.650] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/git/dist/main
+[2020-01-01 02:44:43.693] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-01-01 02:44:43.693] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/merge-conflict/dist/extension
+[2020-01-01 02:44:43.697] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-01-01 02:44:43.697] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/bin/9579eda04fdb3a9bba2750f15193e5fafe16b959/extensions/search-result/dist/extension.js
+[2020-01-01 02:44:43.699] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare","_lower":"ms-vsliveshare.vsliveshare"},"activationEvent":"*"}
+[2020-01-01 02:44:43.699] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.1377/out/prod/extension-prod
+[2020-01-01 02:44:43.929] [exthost] [info] ExtensionService#_doActivateExtension Wscats.eno {"startup":true,"extensionId":{"value":"Wscats.eno","_lower":"wscats.eno"},"activationEvent":"*"}
+[2020-01-01 02:44:43.930] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/sale8/.vscode-server/extensions/wscats.eno-2.1.4/extension
+[2020-01-01 02:44:44.438] [exthost] [info] eager extensions activated
+[2020-01-01 02:44:47.492] [exthost] [info] Extension 'ms-vsliveshare.vsliveshare' uses a document selector without scheme. Learn more about this: https://go.microsoft.com/fwlink/?linkid=872305

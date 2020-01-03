@@ -1,0 +1,20 @@
+[2020-01-01 14:50:36.898] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-01-01 14:50:36.898] [remoteagent] [info] Extension host agent started.
+[2020-01-01 14:50:37.036] [remoteagent] [info] Deleted from disk ms-ceintl.vscode-language-pack-ko /home/sale8/.vscode-server/extensions/ms-ceintl.vscode-language-pack-ko-1.41.1
+[2020-01-01 14:50:37.041] [remoteagent] [info] Deleted from disk ms-vsliveshare.vsliveshare /home/sale8/.vscode-server/extensions/ms-vsliveshare.vsliveshare-1.0.1377
+[2020-01-01 14:50:37.436] [remoteagent] [info] [127.0.0.1][b54df16e][ManagementConnection] New connection established.
+[2020-01-01 14:50:37.451] [remoteagent] [info] [127.0.0.1][deb718a8][ExtensionHostConnection] New connection established.
+[2020-01-01 14:50:37.635] [remoteagent] [info] [127.0.0.1][deb718a8][ExtensionHostConnection] <8042> Launched Extension Host Process.
+[2020-01-01 15:11:10.753] [remoteagent] [info] [127.0.0.1][b54df16e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-01-01 15:11:11.785] [remoteagent] [info] [127.0.0.1][deb718a8][ExtensionHostConnection] <8042> Extension Host Process exited with code: 0, signal: null.
+[2020-01-01 15:11:11.785] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-01-01 15:16:11.885] [remoteagent] [info] Last EH closed, shutting down
